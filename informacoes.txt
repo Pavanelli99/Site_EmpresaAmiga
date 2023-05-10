@@ -1,2 +1,4 @@
 
 Fundada em 21/06/2019
+
+cor base da loja - #990100

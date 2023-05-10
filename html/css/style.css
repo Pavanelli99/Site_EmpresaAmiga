@@ -216,7 +216,7 @@ button {
     width: 100%;
     float: left;
     background-color: #990100;
-    height: auto;
+    height: 88px;
     background-size: 100%;
 }
 
@@ -299,7 +299,7 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    /* background-image: url(../images/banner-bg.png); */
+    background-image: url(../images/banner-bg.png);
     height: auto;
     background-color: grey;
     background-size: 100%;
@@ -1059,7 +1059,7 @@ textarea#comment::placeholder {
 }
 
 .location_text {
-    width: 100%;
+    width: 120%;
     float: left;
 }
 
