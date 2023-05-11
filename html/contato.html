@@ -2,6 +2,7 @@
 <html>
 
 <head>
+   <link rel="web seti icon" type ="jpg" href="images/logo3.png">
    <!-- basic -->
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,6 +31,7 @@
    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
    <!-- Tweaks for older IEs-->
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="web siti icon"  type="png" href="images/logo3.png">
 </head>
 
 <body>
@@ -77,7 +79,7 @@
       </div>
    </div>
    <!-- contact section start -->
-   <div class="contact_section layout_padding">
+   <!-- <div class="contact_section layout_padding">
       <div class="container">
          <div class="row">
             <div class="col-sm-12">
@@ -101,7 +103,42 @@
             </div>
          </div>
       </div>
-   </div>
+   </div> -->
+
+
+   <!-- parte do envio  -->
+
+   <div class="container">
+      <div class="contact_section_2">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="mail_section_1">
+                      <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
+                          <input type="text" class="mail_text" placeholder="Nome" name="Name">
+                          <span class="error"><?php echo $nameErr; ?></span><br><br>
+
+                          <input type="text" class="mail_text" placeholder="E-mail" name="Email">
+                          <span class="error"><?php echo $emailErr; ?></span><br><br>
+
+                          <input type="text" class="mail_text" placeholder="Telefone" name="Phone_Number">
+                          <span class="error"><?php echo $phoneErr; ?></span><br><br>
+
+                          <textarea class="massage-bt" placeholder="Mensagem" rows="5" id="comment" name="Message"></textarea>
+                          <span class="error"><?php echo $messageErr; ?></span><br><br>
+
+                          <div class="send_bt"><input type="submit" value="Enviar"></div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+   <!-- fim envio -->
+
+
+
    <!-- contact section end -->
    <!-- footer section start -->
    <div class="footer_section layout_padding">
@@ -217,10 +254,10 @@
         </div>
     </div>
 </body>
-</html> -->
+</html>  -->
 
 
-<!-- <?php
+<?php
 // Define as variáveis de erro e define-as como vazias inicialmente
 $nameErr = $emailErr = $phoneErr = $messageErr = "";
 $name = $email = $phone = $message = "";
@@ -283,4 +320,4 @@ function test_input($data) {
     $data = htmlspecialchars($data);
     return $data;
 }
-?> -->
+?>
