@@ -39,7 +39,7 @@
    <div class="header_section">
       <div class="container">
          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="101" height="23"></a>
+            <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="101" height="23"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
@@ -47,16 +47,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                     <a class="nav-link" href="index.html">Inicio</a>
+                     <a class="nav-link" href="index.php">Inicio</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="janelas/sobre.html">Quem somos</a>
+                     <a class="nav-link" href="sobre.php">Quem somos</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="janelas/estoque.html">Estoque</a>
+                     <a class="nav-link" href="estoque.php">Estoque</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="janelas/contato.html">Contato</a>
+                     <a class="nav-link" href="contato.php">Contato</a>
                   </li>
                </ul>
                <form class="form-inline my-2 my-lg-0">
@@ -78,36 +78,8 @@
          </div>
       </div>
    </div>
-   <!-- contact section start -->
-   <!-- <div class="contact_section layout_padding">
-      <div class="container">
-         <div class="row">
-            <div class="col-sm-12">
-               <h1 class="contact_taital">ENTRE EM CONTATO</h1>
-            </div>
-         </div>
-      </div>
-      <div class="container">
-         <div class="contact_section_2">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="mail_section_1">
-                     <input type="text" class="mail_text" placeholder="Nome" name="Name">
-                     <input type="text" class="mail_text" placeholder="E-mail" name="Email">
-                     <input type="text" class="mail_text" placeholder="Telefone" name="Phone Number">
-                     <textarea class="massage-bt" placeholder="Mensagem" rows="5" id="comment"
-                        name="Massage"></textarea>
-                     <div class="send_bt"><a href="#">Enviar</a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div> -->
-
-
-   <!-- parte do envio  -->
-
+    <!-- envio/ -->
+    
    <div class="container">
       <div class="contact_section_2">
           <div class="row">
@@ -115,21 +87,22 @@
                   <div class="mail_section_1">
                       <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
                           <input type="text" class="mail_text" placeholder="Nome" name="Name">
-                          <span class="error"><?php echo $nameErr; ?></span><br><br>
+                          <!-- <span class="error"><?php echo $nameErr; ?></span><br><br> -->
 
                           <input type="text" class="mail_text" placeholder="E-mail" name="Email">
-                          <span class="error"><?php echo $emailErr; ?></span><br><br>
+                          <!-- <span class="error"><?php echo $emailErr; ?></span><br><br> -->
 
                           <input type="text" class="mail_text" placeholder="Telefone" name="Phone_Number">
-                          <span class="error"><?php echo $phoneErr; ?></span><br><br>
+                          <!-- <span class="error"><?php echo $phoneErr; ?></span><br><br> -->
 
                           <textarea class="massage-bt" placeholder="Mensagem" rows="5" id="comment" name="Message"></textarea>
-                          <span class="error"><?php echo $messageErr; ?></span><br><br>
+                          <!-- <span class="error"><?php echo $messageErr; ?></span><br><br> -->
 
                           <div class="send_bt"><input type="submit" value="Enviar"></div>
                       </form>
-                  </div>
-              </div>
+                     
+                     </div>
+               </div>
           </div>
       </div>
   </div>
@@ -222,39 +195,7 @@
 
 
 
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <title>Formulário de Contato</title>
-</head>
-<body>
-    <div class="container">
-        <div class="contact_section_2">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mail_section_1">
-                        <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
-                            <input type="text" class="mail_text" placeholder="Nome" name="Name">
-                            <span class="error"><?php echo $nameErr; ?></span><br><br>
 
-                            <input type="text" class="mail_text" placeholder="E-mail" name="Email">
-                            <span class="error"><?php echo $emailErr; ?></span><br><br>
-
-                            <input type="text" class="mail_text" placeholder="Telefone" name="Phone_Number">
-                            <span class="error"><?php echo $phoneErr; ?></span><br><br>
-
-                            <textarea class="massage-bt" placeholder="Mensagem" rows="5" id="comment" name="Message"></textarea>
-                            <span class="error"><?php echo $messageErr; ?></span><br><br>
-
-                            <div class="send_bt"><input type="submit" value="Enviar"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>  -->
 
 
 <?php

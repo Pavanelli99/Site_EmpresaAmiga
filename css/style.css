@@ -17,6 +17,14 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+@media (max-width: 640px) {
+    .navbar-brand {
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+  
 * {
     box-sizing: border-box !important;
     transition: ease all 0.5s;
@@ -711,7 +719,7 @@ span.current {
 .choose_section_2 {
     width: 100%;
     float: left;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .icon_1 {
@@ -842,6 +850,7 @@ span.current {
 .contact_section {
     width: 100%;
     float: left;
+    
 }
 
 .contact_taital {
@@ -861,7 +870,7 @@ span.current {
     background-color: #990100;
     border-top-left-radius: 540px;
     border-top-right-radius: 540px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .padding_left_0 {

@@ -34,23 +34,23 @@
       <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="images/logo.png" width="101" height="23"></a>
+               <a class="navbar-brand"href="index.php"><img src="images/logo.png" width="101" height="23"></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="index.php">Inicio</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="janelas/sobre.html">Quem somos</a>
+                        <a class="nav-link" href="sobre.php">Quem somos</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="janelas/estoque.html">Estoque</a>
+                        <a class="nav-link" href="estoque.php">Estoque</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="janelas/contato.html">Contato</a>
+                        <a class="nav-link" href="contato.php">Contato</a>
                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -63,7 +63,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <h1 class="search_taital">Pesquise seus melhores carros</h1>
+                  <h1 class="search_taital">Pesquise os melhores carros</h1>
                   <!-- <p class="search_text">Using 'Content here, content here', making it look like readable</p> -->
                   <!-- select box section start -->
                   <div class="container">
@@ -233,7 +233,7 @@
                      <!-- <p class="footer_text">There are many variations of passages of Lorem Ipsum available,</p> -->
                      <div class="form-group">
                         <textarea class="update_mail" placeholder="Digite seu e-mail" rows="5" id="comment" name="Enter Your Email"></textarea>
-                        <div class="subscribe_bt"><a href="#">Inscrever-se</a></div>
+                        <div class="subscribe_bt"><a href="">Inscrever-se</a></div>
                      </div>
                   </div>
                   <div class="col">

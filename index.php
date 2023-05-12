@@ -34,23 +34,23 @@
       <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="images/logo.png" width="101" height="20"></a>
+               <a class="navbar-brand"href="index.php"><img src="images/logo.png" width="101" height="20"></a>
                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span> -->
                </button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="index.php">Inicio</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">Quem somos</a>
+                        <a class="nav-link" href="sobre.php">Quem somos</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="estoque.html">Estoque</a>
+                        <a class="nav-link" href="estoque.php">Estoque</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
+                        <a class="nav-link" href="contato.php">Contato</a>
                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -72,13 +72,13 @@
       <!-- banner section start --> 
       <div class="banner_section layout_padding">
          <div class="container">
-            <div class="row">
+            <div class="row" >
                <div class="col-md-6">
                   <div id="banner_slider" class="carousel slide" data-ride="carousel">
                      <div class="carousel-inner">
                         <div class="carousel-item active">
                            <div class="banner_taital_main">
-                              <h1 class="banner_taital">Nossa Loja <br><span style="color: #990100;">Qualidade e procedência.</span></h1>
+                              <h1 class="banner_taital">Nossa Loja <br><span style="color: #990100; font-size: 28px">Qualidade e procedência</span><br><span style="color: #990100; font-size: 28px">é o nosso lema.</span></h1>
                            
                               
                            </div>

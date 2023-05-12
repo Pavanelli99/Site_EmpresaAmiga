@@ -34,23 +34,23 @@
       <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-               <a class="navbar-brand"href="index.html"><img src="images/logo.png" width="101" height="23"></a>
+               <a class="navbar-brand"href="index.php"><img src="images/logo.png" width="101" height="23"></a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link" href="index.php">Inicio</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="janelas/sobre.html">Quem somos</a>
+                        <a class="nav-link" href="sobre.php">Quem somos</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="janelas/estoque.html">Estoque</a>
+                        <a class="nav-link" href="estoque.php">Estoque</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="janelas/contato.html">Contato</a>
+                        <a class="nav-link" href="contato.php">Contato</a>
                      </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -85,7 +85,7 @@
                            <p class="about_text" style="text-align: justify;">  A empresa se dedica a oferecer uma ampla gama de opções de veículos, desde carros de passeio até veículos utilitários, atendendo às necessidades e preferências individuais de cada cliente. A transparência é um valor essencial em todas as etapas do processo, desde a descrição e histórico dos veículos até o preço justo e a clareza nas transações.</p>
                            
                               <p class="about_text" style="text-align: justify;"> A Opção Veículos se destaca por sua abordagem honesta e ética nos negócios. A equipe, liderada por Osmar Pavanelli Souza, é comprometida em oferecer um atendimento de qualidade, buscando compreender as necessidades específicas de cada cliente e oferecendo orientações personalizadas. A empresa valoriza a satisfação do cliente e busca estabelecer parcerias duradouras.</p>
-                        <div class="readmore_btn"><a href="#">Mais</a></div>
+                        <!-- <div class="readmore_btn"><a href="#">Mais</a></div> -->
                      </div>
                   </div>
                </div>
